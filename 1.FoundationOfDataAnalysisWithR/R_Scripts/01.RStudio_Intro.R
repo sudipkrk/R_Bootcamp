@@ -1,29 +1,27 @@
-# The GRAPH Network: R bootcamp_R Basic and Beyond #
+# The GRAPH Network: Foundation of Data Analysis with R #
 
-## Introduction to R Studio
+## Introduction to R Studio ----
 
-### Printing something on R Console
+### Printing something on R Console ----
 
 print("Excited for R")
 print("and R Studio !")
 
-## install the packages 
+## Install the packages ----
 install.packages('readr')
 install.packages("readxl")
 install.packages("highcharter")
 
-## Loading the packages
+## Loading the packages----
 library(highcharter)
 library(readr)
 library(readxl)
 library(readxl)
 
-
-
-# View the data set: any already built data
+#### View the data set: any already built data ----
 View(women)
 
-### Get the data from the website 
+### Get the data from the website ----
 ebola_data<- read.csv("https://tinyurl.com/ebola-data-sample")
 
 ## I have already downloaded the data in my working directory
